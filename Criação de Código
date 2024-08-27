@@ -1,0 +1,25 @@
+Java, PHP e Swift são linguagens de programação distintas, cada uma com suas próprias características e propósitos. Aqui estão algumas semelhanças e diferenças entre elas:Orientação a Objetos: Todas essas linguagens suportam programação orientada a objetos (POO). Java e Swift são fortemente orientadas a objetos, enquanto PHP tem suporte para POO a partir da versão 5.Sintaxe Inspirada em C: Java, PHP e Swift têm sintaxes que são em parte inspiradas na linguagem C. Isso significa que, se você estiver familiarizado com C ou C++, encontrará alguns elementos semelhantes.Comunidade Ativa: Cada uma dessas linguagens tem uma comunidade ativa de desenvolvedores e uma vasta gama de bibliotecas e frameworks disponíveis para facilitar o desenvolvimento.Interpretação e Compilação: Java e Swift são compilados, enquanto PHP é geralmente interpretado. No entanto, a distinção não é absoluta, pois ferramentas como JIT (Just-In-Time) compilation podem ser usadas para PHP.
+Diferenças/ Propósito e Uso Principal: 
+Java: É uma linguagem versátil usada em uma ampla gama de aplicações, incluindo desenvolvimento de aplicativos móveis (Android), sistemas empresariais, aplicações web (usando frameworks como Spring), e até mesmo aplicações desktop.
+PHP: Originalmente projetada para desenvolvimento web, PHP é uma linguagem de script do lado do servidor. É amplamente utilizada para construir websites dinâmicos e sistemas de gerenciamento de conteúdo (como WordPress).
+Swift: Desenvolvida pela Apple, Swift é principalmente usada para desenvolver aplicativos para iOS, macOS, watchOS e tvOS. É uma linguagem moderna que substituiu o Objective-C para o desenvolvimento de aplicativos Apple.
+b) Executar o código: 
+PHP: <?php
+echo "Meu nome é Agatha";
+?>
+JAVA:<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo JavaScript</title>
+</head>
+<body>
+    <script>
+        console.log("Meu nome é Agatha");
+    </script>
+</body>
+</html>
+SWIFH: import Foundation
+
+print("Meu nome é Agatha")
+
