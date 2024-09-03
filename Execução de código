@@ -1,0 +1,13 @@
+# Lista de números para verificar
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Estrutura de repetição: iterar sobre cada número na lista
+for numero in numeros:
+    # Estrutura de tomada de decisão: verificar se o número é par ou ímpar
+    if numero % 2 == 0:
+        print(f"{numero} é par")
+    else:
+        print(f"{numero} é ímpar")
+Nesse codigo: 
+Utilizamos um 'for' loop para iterar sobre cada elementos da lista 'numeros'. 
+Dentro do loop, usamos "if" statement para determinar se o numero é par (divisivel por 2) ou impar (nao divisivel por 2). Dependendo do resultado essa mensagem é impressa. 
