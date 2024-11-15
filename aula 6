@@ -1,0 +1,29 @@
+def bubble_sort(arr):
+    n = len(arr)
+    # Percorre todos os elementos da lista
+    for i in range(n):
+        # Flag para verificar se houve troca durante esta iteração
+        swapped = False
+        # Percorre a lista do início até o final não ordenado
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                # Troca se o elemento encontrado for maior que o próximo
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                swapped = True
+        # Se não houve troca, a lista já está ordenada
+        if not swapped:
+            break
+    return arr
+
+# Exemplo de uso
+lista = [30, 34, 15, 12, 80, 11, 90]
+print("Lista original:", lista)
+sorted_lista = bubble_sort(lista)
+print("Lista ordenada:", sorted_lista)
+
+Lista original: [30, 34, 15, 12, 80, 11, 90]
+Lista ordenada: [11, 12, 15, 30, 34, 80, 90]
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
