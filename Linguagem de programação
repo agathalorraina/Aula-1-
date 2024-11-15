@@ -1,0 +1,25 @@
+Java
+Java é uma linguagem de programação orientada a objetos, fortemente tipada e projetada para ser executada em qualquer lugar, o que é facilitado pela Java Virtual Machine (JVM). Aqui estão algumas características chave:
+
+Sintaxe: Inspirada em C/C++, com uma sintaxe clara e rigorosa.
+Tipagem: Fortemente tipada (você deve declarar o tipo de cada variável).
+Compilação: O código Java é compilado em bytecode que é executado pela JVM, tornando o Java portátil entre diferentes sistemas operacionais.
+Uso Comum: Desenvolvimento de aplicativos corporativos, Android, sistemas embarcados, e aplicações web.
+// Este é um programa simples em Java que imprime "Olá, Mundo!"
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Olá, Mundo!");
+    }
+}
+
+
+JavaScript
+JavaScript é uma linguagem de programação interpretada, comumente usada para adicionar interatividade a páginas web. Aqui estão algumas características chave:
+
+Sintaxe: Menos rigorosa que Java, com mais flexibilidade e alguns aspectos da programação funcional.
+Tipagem: Dinamicamente tipada (você não precisa declarar o tipo de cada variável).
+Execução: Executado diretamente no navegador ou em ambientes de servidor como Node.js.
+Uso Comum: Desenvolvimento web (frontend e backend), scripts de automação, aplicações móveis com frameworks como React Native.
+// Este é um script simples em JavaScript que imprime "Olá, Mundo!" no console
+console.log("Olá, Mundo!");
+
