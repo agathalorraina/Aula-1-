@@ -1,0 +1,39 @@
+Código 1:
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Try programiz.pro")
+# Define o número de repetições
+num_repeticoes = 5
+
+# Loop que se repete num_repeticoes vezes
+for _ in range(num_repeticoes):
+    print("gigolô")
+Try programiz.pro
+gigolô
+gigolô
+gigolô
+gigolô
+gigolô
+
+=== Code Execution Successful ===
+Link: https://www.programiz.com/online-compiler/7YuU3Jiautets
+
+
+Código 2:
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("Try programiz.pro")
+# Solicita ao usuário uma entrada
+entrada = input("Digite uma palavra: ")
+
+# Verifica se a palavra digitada é "gigolô"
+if entrada == "gigolô":
+    print("Você digitou a palavra mágica!")
+else:
+    print("Palavra não reconhecida.")
+Try programiz.pro
+Digite uma palavra: gigolô
+Você digitou a palavra mágica!
+
+=== Code Execution Successful ===
+Link: https://www.programiz.com/online-compiler/5c2Mja7JGglHI
