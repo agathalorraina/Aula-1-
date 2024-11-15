@@ -1,0 +1,18 @@
+def extrair_vogais(texto):
+    # Defina as vogais
+    vogais = 'aeiouAEIOU'
+    # Filtre as vogais do texto
+    vogais_encontradas = [caractere for caractere in texto if caractere in vogais]
+    # Junte as vogais em uma string
+    return ''.join(vogais_encontradas)
+
+# Exemplo de uso
+entrada = "Inconstitucionalidade"
+resultado = extrair_vogais(entrada)
+print("Vogais encontradas:", resultado)
+
+Vogais encontradas: Ioiuioaiae
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
